@@ -11,7 +11,7 @@ class ProfileController extends Controller
         // User Details
         $id = $request->id;
         $name = "Donald Trump";
-        $age = "78";
+        $age = "75";
         $data = ["id" => $id, "name" => $name, "age" => $age];
         
         // Set Cookie
